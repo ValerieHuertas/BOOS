@@ -1,0 +1,447 @@
+.bg-sena{
+    background-color: transparent !important;
+    border-bottom: 2px solid #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/*ubicamos lo items del menu a la derecha*/
+nav .navbar-collapse{
+    justify-content: flex-end;
+}
+
+nav .navbar-collapse .nav-link{
+    color: #fff;
+    padding: 10px 30px;
+    margin: 0 30px;
+    border-bottom: 1px solid turquoise;
+}
+
+nav .navbar-collapse .nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+
+#carouselheroCaptions .carousel-item{
+    position: relative;
+}
+
+
+#carouselHCaptions .carousel-inner .carousel-caption{
+    position: absolute;
+    left: 10%;
+    top: 200px;
+    z-index: 9;
+    text-align: left;
+}
+
+.carousel-item .carousel-caption h5{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.carousel-item .carousel-caption p{
+    font-size: 30px;
+}
+
+.carousel-item .carousel-caption button{
+    background-color:red;
+    padding: 12px 40px;
+    font-size: 26px;
+    color: aliceblue;
+    border-color: transparent;
+}
+
+#play-video{
+    position: absolute;
+    z-index: 99;
+    range: 10%;
+    top:20%;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-color: transparent;
+    box-shadow: 0px 0px 10px #000000;
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#about{
+    width: 100%;
+    position: relative;
+    background: #fff;
+}
+
+#about .card1{
+    padding: 30px;
+    box-shadow: 0 5px 15px 4px #999;
+    text-align: center;
+    background: #fff;
+}
+
+#about .card1 i{
+    font-size: 50px;
+    color: red;
+}
+
+#about .card1 p{
+    font-size: 18px;
+    color: #999;
+}
+
+#about .card2{
+    padding: 30px;
+    box-shadow: 9 5px 15px 4px #999;
+    text-align: center;
+    background: rgb(31, 199, 255);
+}
+
+#about .card2 h3{
+    color: #fff;
+}
+
+#about .card2 p{
+    color: #fff;
+    font-size: 18px;
+}
+
+#about .card2 p{
+    background: #fff;
+    padding: 8px 20px;
+    color: #000;;
+    font-size: 20px;
+    border-color: transparent;
+}
+
+#about .cont-cards{
+    justify-content: space-around;
+   position: relative;
+   top: -70px;
+   z-index: 9;
+}
+
+#about .card3 h3{
+    color: red;
+    font-size: 30px;
+}
+
+#about .card3 h2{
+    font-size: 20px;
+    color: #999;
+}
+
+#about .card3 p{
+    font-size: 18px;
+}
+
+#about .padre{
+    display: flex;
+}
+
+#about .coso{
+    width: 6px;
+    background: red;
+    margin: 10px;
+    height: 130
+}
+
+#about .boton{
+    background-color: red;
+    padding: 5px 20px;
+}
+
+.lista li{
+    list-style: none;
+}
+
+#about .imagen img{
+    position: relative;
+    height: 900px;
+    left: 130px;
+    width: 70%;
+}
+
+#about .cuadrado{
+    position: relative;
+    font-size: 15px;
+    left: 352px;
+    right: 30px;
+    top: -250px;
+    background: red;
+    width: 300px;
+    padding: 50px;
+    color: #fff;
+}
+
+#about .cuadrado::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    background:url(../img/Polygon\ 1.png);
+    background-size: cover;
+    background-position: center;
+    left: -70px;
+    bottom: 0;
+}
+
+#services{
+    width: 100%;
+    position: relative;
+    padding-bottom: 120px;
+    background: #fff;
+}
+#services .cuadra1,
+#services .cuadra4{
+    margin: 10px;
+}
+
+#services .cuadra2,
+#services .cuadra3,
+#services .cuadra5,
+#services .cuadra6{
+    margin: 10px;
+}
+
+#services .cuadra1 h2{
+    text-align: left;
+    font-size: 40px;
+}
+
+#services .cuadra1 p{
+    text-align: left;
+    font-size: 15px;
+}
+
+#services .boton{
+    background: red;
+    text-align: center;
+    color: #fff;
+    border: transparent;
+    padding: 10px 20px;
+}
+
+#services .cuadra2{
+    padding: 30px;
+    box-shadow: 0 5px 15px 4px #999;
+    text-align: center;
+    background: #fff;
+}
+
+#services .boton1{
+    background: red;
+    text-align: center;
+    color: #fff;
+    border: transparent;
+}
+
+#services i{
+    color: red;
+}
+
+#services .cuadra3{
+    padding: 30px;
+    box-shadow: 0 5px 15px 4px #999;
+    text-align: center;
+    background: #fff;
+}
+
+#services .boton2{
+    background: red;
+    text-align: center;
+    color: #fff;
+    border: transparent;
+}
+
+#services i{
+    color: red;
+}
+
+#services .cuadra4{
+    padding: 30px;
+    box-shadow: 0 5px 15px 4px #999;
+    text-align: center;
+    background: #fff;
+}
+
+#services .boton3{
+    background: red;
+    text-align: center;
+    color: #fff;
+    border: transparent;
+}
+
+#services i{
+    color: red;
+}
+
+#services .cuadra5{
+    padding: 30px;
+    box-shadow: 0 5px 15px 4px #999;
+    text-align: center;
+    background: #fff;
+}
+
+#services .boton4{
+    background: red;
+    text-align: center;
+    color: #fff;
+    border: transparent;
+}
+
+#services i{
+    color: red;
+}
+
+#services .cuadra6{
+    padding: 0 !important;
+    box-shadow: 0 5px 15px 4px #999;
+    text-align: center;
+    background: #fff;
+}
+
+#coso .cudrado1{
+        position: relative;
+        font-size: 15px;
+        right:352px;
+        right: 30px;
+        top: -190px;
+        background: red;
+        width: 300px;
+        padding: 50px;
+        color: #fff;
+    }
+
+    #coso {
+        padding: 50px 0;
+    }
+    
+    .cuadra7 {
+        margin-bottom: 20px;
+    }
+    
+    .cuadra7 .cuadrado1 {
+        margin-top: 20px;
+    }
+    
+    .cuadra8 {
+        text-align: center;
+        background-color: #aaeafa;
+    }
+     
+    .carousel-item h2 {
+        color: #002a58;
+    }
+    
+    .carousel-item p {
+        line-height: 1.6;
+        color: #000000;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        font-size: 24px;
+        color: #007bff;
+    }
+    
+    .carousel-indicators {
+        bottom: -40px;
+    }
+    
+    .carousel-indicators li {
+        background-color: #007bff;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+    }
+    
+    .carousel-indicators .active {
+        background-color: #0056b3;
+    
+    }
+    
+    #acordion {
+        max-width: 880px;
+        margin: auto;
+    }
+    
+    #acordion h3,
+    #acordion h2,
+    #acordion p {
+        margin: 30px;
+        text-align: center;
+    }
+    
+    .acordion1 {
+        max-width: 880px;
+        margin: 20px auto;
+    }
+    
+    .acordion1 .contentBx {
+        position: relative;
+        margin: 10px 0;
+    }
+    
+    .acordion1 .contentBx .label {
+        position: relative;
+        margin: 10px;
+        background: #2694af;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .acordion1 .contentBx .label::before {
+        content: ' + ';
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        font-size: 1.5em;
+    }
+    
+    .acordion1 .contentBx.active .label::before {
+        content: ' - ';
+    }
+    
+    .acordion1 .contentBx .content {
+        position: relative;
+        padding: 10px;
+        background: #fff;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+        overflow-y: auto;
+        padding-bottom: 0;
+    }
+    
+    .acordion1 .contentBx.active .content {
+        padding-bottom: 20px;
+        height: 130px;
+        padding: 10px;
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
